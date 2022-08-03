@@ -1,4 +1,3 @@
-import Nav from "../components/Nav";
 import { useState, useEffect } from "react";
 const Home = () => {
   const [productList, setProductlist] = useState([]);
@@ -11,7 +10,6 @@ const Home = () => {
 
   return (
     <div>
-      <Nav />
       <h1>Hola Platzi</h1>
       {productList.map((product) => {
         return (
